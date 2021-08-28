@@ -1,9 +1,12 @@
 import '../styles/App.css';
+import HeaderNav from './HeaderNav';
+import ReposList from './ReposList';
 
 function App() {
   return (
     <div className="App">
-        <h2>Github Starred Repos</h2>
+        <HeaderNav/>
+        <ReposList/>
     </div>
   );
 }
