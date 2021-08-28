@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Header.css'
 import Octacat from '../logo.png'
-function HeaderNav() {
+function Header() {
     return (
         <h1 className="header">
             <div className="header__logo">
@@ -12,4 +12,4 @@ function HeaderNav() {
     )
 }
 
-export default HeaderNav
+export default Header
