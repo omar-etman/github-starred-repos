@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
 }
 
 ul {

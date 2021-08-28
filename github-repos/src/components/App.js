@@ -1,11 +1,11 @@
 import '../styles/App.css';
-import HeaderNav from './HeaderNav';
+import Header from './Header';
 import ReposList from './ReposList';
 
 function App() {
   return (
     <div className="App">
-        <HeaderNav/>
+        <Header/>
         <ReposList/>
     </div>
   );
