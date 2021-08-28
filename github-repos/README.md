@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# The Github starred repos webapp:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project utilizes the github API to map the most starred Github repos within the past 30 days into a paginated list with access to both the repository and it's author
 
 ## Available Scripts
 
