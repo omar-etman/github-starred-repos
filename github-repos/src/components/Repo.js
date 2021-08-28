@@ -8,7 +8,9 @@ function Repo(props) {
 
     return (
         <div className = "repo">
-           <div className="repo__avatar">
+           <div
+            aria-label="Repo avatar"  
+            className="repo__avatar">
                <a href={ownerLink}>
                     <img
                         src={avatar}
@@ -17,7 +19,9 @@ function Repo(props) {
                     />
                </a>
            </div>
-           <div className="repo__info">
+           <div
+            aria-label="Repo info" 
+            className="repo__info">
                <a
                 href={repoLink} 
                 className="info__title">
