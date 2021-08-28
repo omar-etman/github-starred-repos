@@ -4,12 +4,9 @@ import Repo from './Repo'
 function ReposList() {
 
     return (
-        <div className="repo">
+        <div>
             <p>ReposList</p>
             <ul>
-                <li><Repo/></li>
-                <li><Repo/></li>
-                <li><Repo/></li>
                 <li><Repo/></li>
             </ul>
         </div>

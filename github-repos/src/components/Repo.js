@@ -16,8 +16,8 @@ function Repo() {
                </div>
                <div className="info__stats">
                    <div className="info__stats__numbers">
-                       <div>stars</div>
-                       <div>issues</div>
+                       <div className="stats__numbers__stars">stars</div>
+                       <div className="stats__numbers__issues">issues</div>
                    </div>
                    <div className="info__stats__timestamp">
                        timestamp
